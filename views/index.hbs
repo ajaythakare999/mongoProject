@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+        <style>
+            table, th, td {
+              border:1px solid black;
+              color: white;
+            }
+            a{
+              text-decoration: none;
+              background-color: yellow;
+              border: 1px solid black;
+              color: red;
+            }
+            body{
+                background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+      
+            }
+    </style>
+  </head>
+
+    <body>
+        <form>
+
+          
+          <table style="width:70%">
+            <tr>
+              <th>name</th>
+              <th>lastname</th>
+              <th>mobileNo</th>
+               <th>email</th>
+               <th>empID</th>
+               <th>id</th>
+               
+          
+          
+            </tr>
+            <tr>
+              <td> {{name}}</td>
+              <td>{{lastname}}</td>
+              <td> {{mobile}}</td>
+              <td> {{email}}</td>
+              <td>{{idemp}}</td>
+              <td>{{id}}</td>
+              <td> <a href="/ajay/{{id}}">delete</a></td>
+              <td> <a href="/update/{{id}}">update</a></td>
+            </tr>
+            
+          </table>
+            
+         
+
+         </form>
+        
+        
+    </body>
+</html>

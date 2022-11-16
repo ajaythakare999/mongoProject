@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <style>
+
+            div{
+                position: relative;
+                right: 20px;
+                color: red;
+            }
+            body{
+        display: flex;
+        
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 70px; 
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+        
+      }
+      input{
+        display: block;
+        margin: 5px;
+        border: 1px solid black;
+         height: 20px;
+          width: 250px; 
+      }
+      button{
+        position: relative;
+        left: 100px;
+        margin-top: 5px;
+        color: white;
+        background-color:green;
+      }
+       
+        </style>
+</head>
+
+    <body>
+        
+         <form  method="POST">
+        <input type="string" name="nam"  value="{{user.name}}"></input>
+        <input type="string" name="lastnam"  value="{{user.last_name}}"></input>
+        <input type="string" name="mobilenumbe"  value="{{user.mobile_number}} "></input>
+        <input type="string" name="emai" value="{{user.email}}" ></input>
+        <input type="number" name="empi"  value="{{user.emp_id}}"></input>
+        <button type="submit"> upadte</button>
+        </form>
+
+         </div>
+        
+        
+    </body>
+</html>

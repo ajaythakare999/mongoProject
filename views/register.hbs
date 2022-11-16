@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .container{
+        display: flex;
+        
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 70px; 
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+      
+       
+        
+      }
+      
+      
+      .item6{
+        flex: 1;
+        border: 2px solid red;
+        background-color: red;
+        color: white;
+        border-radius: 5px;
+        text-decoration: none
+        
+      }
+       .item7{
+        flex: 1;
+        border: 2px solid red;
+        background-color: red;
+        color: white;
+        border-radius: 5px;
+        text-decoration: none;
+        
+      }
+      input{
+        border: 1px solid black;
+        color: black;
+        width: 250px;
+        align-items: center;
+        display: block;
+        margin: 5px;
+        height: 20px;
+      }
+      
+      button ,a {
+        display:inline-block;
+        margin: 4px;
+        position: relative;
+        left: 70px;
+
+        
+      }
+      form{
+        width: 300px;
+        height: 300px;
+      }
+      a{
+        height: 17px;
+        font-size: 15px; 
+        width: 50px; 
+        text-align: center;    }
+        
+     
+      </style>
+    </head>
+
+
+    <body  class="container">
+        <form action="/register" method="POST" class="container">
+        <h4>Enter Employee Details<h1>
+        <input class="item1" type="string" name="name" placeholder="enter name" ></input>
+        <input  class="item2" type="string" name="lastname" placeholder="enter lastname" ></input>
+        <input class="item3 " type="string" name="mobilenumber"  placeholder="enter mobilenumber"></input>
+        <input  class="item4" type="string" name="email" placeholder="enter email"></input>
+        <input  class="item5" type="number" name="empnumber"  placeholder="enter empid"></input>
+        <button  class="item6"  type="submit"> submit</button>
+         <a class="item7" href="/register">show</a>
+
+        </form>
+
+       
+
+
+          </body>
+</html>
